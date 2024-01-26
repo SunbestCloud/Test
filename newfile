@@ -1,0 +1,36 @@
+# Git Commands
+git config #Configure the username and email address
+
+git init #Initialize a Local Git Repository
+
+git init --bare #No .git subfolder. Does not contain any source files
+
+git add . #Add one or more files to staging area
+
+git commit -m "Message" #Commit Changes to head
+
+git status #Displays the state of the Working directory and staging area
+
+git diff #View the changes made to the File
+
+git log
+
+git log --pretty=online
+
+git add remote origin Server_Repo_URL
+
+git push -u origin master
+
+git clone Server_Repo_URL
+
+git reset --soft #Undo local changes to the state of Git repo
+
+git revert Commit_ID
+
+# Git Branch Commands
+
+git branch New_Branch
+
+git push -u origin New_Branch #Upload contect from local respository to a remote respository
+
+git branch -av
